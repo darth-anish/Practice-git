@@ -8,4 +8,6 @@ In this repository we'll learn how to use basic git commands such as :
 - reset
 - pull
 - push
-- merge 
+- merge
+- diff
+- status 
