@@ -5,9 +5,11 @@ In this repository we'll learn how to use basic git commands such as :
 - commit
 - add
 - revert
-- reset
+- reset --hard
+- reset --soft
+- reset --mixed
 - pull
 - push
 - merge
 - diff
-- status 
+- status
