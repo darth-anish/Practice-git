@@ -10,5 +10,4 @@ In this repository we'll learn how to use basic git commands such as :
 - push
 - merge
 - diff
-- status
-- logging 
+- status 
