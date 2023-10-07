@@ -23,8 +23,10 @@ In this repository we'll learn how to use basic git commands such as :
 
 - push
 	- to push all local commited changes to remote branch: git push origin <branchname>
-- revert
-- reset --hard
-- reset --soft
-- reset --mixed
+- hard-reset
+	- to reset the HEAD to any previous commits, removing all files and changes completely: git reset --hard <commitId>
+- mixed-reset 
+	- files are kept locally but removed from the staging area/index, you have to add and commit to return back to original HEAD: git reset --mixed <commitId>
+- soft-reset
+	- files are kept locally in staging area, only commit is needed to return back to original HEAD: git reset --soft <commitId>
 
