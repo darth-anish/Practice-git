@@ -1,6 +1,8 @@
 # Welcome to the README
 
-## TOP GIT COMMANDS:
+=======
+## TOP GIT COMMANDS
+>>>>>>> anish
 - branch
 	- to see all branches: git branch
 	- to create a new branch: git branch <branchname>
