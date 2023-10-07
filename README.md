@@ -20,7 +20,6 @@ In this repository we'll learn how to use basic git commands such as :
 	- to get all remote branches into local machine: git fetch
 - pull
 	- to fetch remote branches and merge changes to local branch: git pull
-
 - push
 	- to push all local commited changes to remote branch: git push origin <branchname>
 - hard-reset
@@ -29,4 +28,8 @@ In this repository we'll learn how to use basic git commands such as :
 	- files are kept locally but removed from the staging area/index, you have to add and commit to return back to original HEAD: git reset --mixed <commitId>
 - soft-reset
 	- files are kept locally in staging area, only commit is needed to return back to original HEAD: git reset --soft <commitId>
-
+- stash
+	- save modified and staged changes: git stash
+	- list all stashed file changes: git stash list
+	- write working from the top stacked stash: git stash pop
+	- drop a stash from the top of the stack: git stash drop
