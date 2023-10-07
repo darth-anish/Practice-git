@@ -28,3 +28,9 @@
 	- files are kept locally but removed from the staging area/index, you have to add and commit to return back to original HEAD: git reset --mixed <commitId>
 - soft-reset
 	- files are kept locally in staging area, only commit is needed to return back to original HEAD: git reset --soft <commitId>
+- stash
+	- save modified and staged changes: git stash
+	- list all stashed file changes: git stash list
+	- write working from the top stacked stash: git stash pop
+	- drop a stash from the top of the stack: git stash drop
+>>>>>>> anish
