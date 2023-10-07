@@ -1,6 +1,6 @@
 # Welcome to the README
 
-In this repository we'll learn how to use basic git commands such as :
+## TOP GIT COMMANDS
 - branch
 	- to see all branches: git branch
 	- to create a new branch: git branch <branchname>
