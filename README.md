@@ -1,8 +1,6 @@
 # Welcome to the README
 
-=======
 ## TOP GIT COMMANDS
->>>>>>> anish
 - branch
 	- to see all branches: git branch
 	- to create a new branch: git branch <branchname>
@@ -35,4 +33,3 @@
 	- list all stashed file changes: git stash list
 	- write working from the top stacked stash: git stash pop
 	- drop a stash from the top of the stack: git stash drop
->>>>>>> anish
